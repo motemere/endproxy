@@ -1,10 +1,11 @@
 package me.motemere.endproxy.services;
 
+import me.motemere.testproject.dto.Message;
+
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.util.logging.Logger;
-import me.motemere.endproxy.dto.Message;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpEntity;
