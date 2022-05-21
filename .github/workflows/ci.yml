@@ -25,5 +25,7 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v3
         with:
-          push: false
+          push: true
           tags: motemere/testproject-endproxy:latest
+          build-args: |
+            BUILD_VERSION=0.0.2-SNAPSHOT
